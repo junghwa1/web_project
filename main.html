@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="utf-8" />
+    <title>색상 코드 소개 페이지</title>
+    <script src="color_copy.js"></script>
+    <style>
+      body {
+        font-family: "Noto Sans KR", sans-serif;
+        background-image: url("background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="titlecontainer" style="margin-bottom: 20px">
+      <h1
+        style="
+          float: right;
+          padding-right: 15%;
+          padding-top: 30px;
+          font-size: 70px;
+        "
+      >
+        paletter
+      </h1>
+    </div>
+    <div class="subcontainer" style="margin-bottom: 20px">
+      <h2>색상코드란?</h2>
+      <p>
+        색상코드는 개체의 색상을 표기하기 위해 만들어진 디지털 코드입니다.<br />
+        주로 컴퓨터 프로그래밍 및 HTML 등에서 사용합니다. 포토샵이나 일러스트와
+        같은<br />
+        그래픽 프로그램을 보면 #000000 등으로 표기되어 있는 것
+        역시색상코드입니다.
+      </p>
+    </div>
+    <div class="subcontainer" style="height: 300px">
+      <h2>RGB 색상 코드/HTML 색상 코드</h2>
+      <p>
+        코딩에서 색상을 표기하기 위해 정해진 방법으로 16진법으로
+        이루어져있습니다.<br />
+        #FF0000처럼 “#”과 6자리 숫자로 표기 되며, 각 자리와 숫자에 따라 의미가
+        부여됩니다.<br />
+        #다음으로 오는 처음 두 자리는 빨강색의 강도를 의미하고, 00는 가장 강도가
+        낮은 빨강을 의미하고 FF는 가장 강도가 높은 빨강을 의미합니다.<br />
+        세번째와 네번째 자리는 녹색의 강도를 의미하는데 숫자가 커질수록 더욱
+        밝은 색을 의미하고,<br />
+        00는 가장 강도가 낮은 녹색을 의미하고 FF는 가장 강도가 높은 녹색을
+        의미합니다.<br />
+        즉, 숫자가 커지고 FF로 표현될 수록 더욱 밝은 색을 의미하는 것입니다.
+        <br />다섯번째와 여섯번째는 파란색의 강도를 의미하는데 숫자가 커질수록
+        더욱 밝은 색을 의미하고,<br />
+        00는 가장 강도가 낮은 파란색을 의미하고 FF는 가장 강도가 높은 파란색을
+        의미합니다.<br />
+        다시 말해, 색상코드는 빛의 3원색인 빨강, 녹색, 파랑의 강도를 조합하여
+        희망하는 컬러를 표현할 수 있는 것입니다.<br />
+        3가지의 색상을 조합하면 총 16,777,216 가지의 색상을 표현할 수 있습니다.
+      </p>
+    </div>
+    <table border="0" style="margin-left: auto; margin-right: auto">
+      <tr>
+        <td>
+          <div class="container">
+            <div class="color-palette">
+              <div
+                class="color-box red"
+                onclick="window.location.href='red.html'"
+              >
+                <div class="textbox">
+                  <div class="text">RED</div>
+                </div>
+              </div>
+            </div>
+            <p style="font-size: 22px">The color is close to #FF0000</p>
+          </div>
+        </td>
+        <td>
+          <div class="container">
+            <div class="color-palette">
+              <div
+                class="color-box magenta"
+                onclick="window.location.href='magenta.html'"
+              >
+                <div class="textbox">
+                  <div class="text">MAGENTA</div>
+                </div>
+              </div>
+            </div>
+            <p style="font-size: 22px">The color is close to #FF00FF</p>
+          </div>
+        </td>
+        <td>
+          <div class="container">
+            <div class="color-palette">
+              <div
+                class="color-box yellow"
+                onclick="window.location.href='yellow.html'"
+              >
+                <div class="textbox">
+                  <div class="text">YELLOW</div>
+                </div>
+              </div>
+            </div>
+            <p style="font-size: 22px">The color is close to #FFFF00</p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="container">
+            <div class="color-palette">
+              <div
+                class="color-box blue"
+                onclick="window.location.href='blue.html'"
+              >
+                <div class="textbox">
+                  <div class="text">BLUE</div>
+                </div>
+              </div>
+            </div>
+            <p style="font-size: 22px">The color is close to #0000FF</p>
+          </div>
+        </td>
+        <td>
+          <div class="container">
+            <div class="color-palette">
+              <div
+                class="color-box cyan"
+                onclick="window.location.href='cyan.html'"
+              >
+                <div class="textbox">
+                  <div class="text">CYAN</div>
+                </div>
+              </div>
+            </div>
+            <p style="font-size: 22px">The color is close to #00FFFF</p>
+          </div>
+        </td>
+        <td>
+          <div class="container">
+            <div class="color-palette">
+              <div
+                class="color-box green"
+                onclick="window.location.href='green.html'"
+              >
+                <div class="textbox">
+                  <div class="text">GREEN</div>
+                </div>
+              </div>
+            </div>
+            <p style="font-size: 22px">The color is close to #00FF00</p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div class="container">
+            <div class="color-palette">
+              <div
+                class="color-box white"
+                onclick="window.location.href='white.html'"
+              >
+                <div class="textbox">
+                  <div class="text">WHITE</div>
+                </div>
+              </div>
+            </div>
+            <p style="font-size: 22px">The color is close to #FFFFFF</p>
+          </div>
+        </td>
+        <td>
+          <div class="container">
+            <div class="color-palette">
+              <div
+                class="color-box black"
+                onclick="window.location.href='black.html'"
+              >
+                <div class="textbox">
+                  <div class="text">BLACK</div>
+                </div>
+              </div>
+            </div>
+            <p style="font-size: 22px">The color is close to #000000</p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <div>
+            <bold>소속 : </bold>충북대학교 소프트웨어학과<br />
+            <bold>학번 : </bold>2019038062<br />
+            <bold>이름 : </bold>염중화
+          </div>
+        </td>
+      </tr>
+    </table>
+    <div id="footer">
+      <h4 style="text-align: center">.paletter</h4>
+    </div>
+  </body>
+</html>
